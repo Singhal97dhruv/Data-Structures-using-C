@@ -38,6 +38,9 @@ struct node*addend(struct node*head_ref,int value){
     
 }
 struct node*add_at_index(struct node*head_ref,int value,int index){
+   if(index==1){
+       return addbeg(head_ref,value);
+   }
     int count=1;
     struct node*p=head_ref;
     while(count!=index-1){
