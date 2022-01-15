@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>                   //Singhal SAab
 #include<stdlib.h>
 struct node{
     int data;
@@ -148,6 +148,9 @@ int main(){
 
             case -1:
             exit(0);
+            break;
+            default:
+            printf("\nENter a valid choice :( \n");
             break;
 
         }
